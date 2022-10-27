@@ -1,9 +1,9 @@
 // Colors:
-$color-orange: hsl(31, 77%, 52%);
-$color-cyan: hsl(184, 100%, 22%);
-$color-cyan-dark: hsl(179, 100%, 13%);
-$color-white-transparent: hsla(0, 0%, 100%, 0.75);
-$color-grey-ligh: hsl(0, 0%, 95%);
+$color-orange: #e38826;
+$color-cyan: #006970;
+$color-cyan-dark: #004241;
+$color-white-transparent: #ffffffbf;
+$color-grey-light: #f2f2f2;
 
 // Fonts:
 $font-primary: "Lexend Deca";
@@ -24,6 +24,36 @@ html {
 
 body {
   font-family: "$font-primary", sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  color: $color-grey-light;
+  font-family: $font-secondary;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  color: $color-white-transparent;
+}
+
+.btn {
+  width: 14.6rem;
+  height: 4.8rem;
+  background-color: $color-grey-light;
+  border-radius: 2.5rem;
+  border: 2px solid white;
+  transition: all 0.2s;
+  cursor: url(../images/Pointer.svg), auto;
+
+  &:hover {
+    background-color: transparent;
+    color: white;
+  }
 }
 
 .attribution {

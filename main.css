@@ -1,1 +1,123 @@
-/*# sourceMappingURL=main.css.map */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "$font-primary", sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display";
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  color: rgba(255, 255, 255, 0.7490196078);
+}
+
+.btn {
+  width: 14.6rem;
+  height: 4.8rem;
+  background-color: #f2f2f2;
+  border-radius: 2.5rem;
+  border: 2px solid white;
+  transition: all 0.2s;
+  cursor: url(../images/Pointer.svg), auto;
+}
+.btn:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+.card {
+  width: 92rem;
+  height: 50rem;
+  border-radius: 0.8rem;
+  margin: 17rem auto;
+  overflow: hidden;
+  position: relative;
+}
+.card__sedans {
+  background-color: #e38826;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card__sedans--content {
+  display: grid;
+  padding: 4.8rem;
+}
+.card__sedans--content-text {
+  margin-right: 2rem;
+}
+.card__sedans--content-btn {
+  color: #e38826;
+  align-self: end;
+}
+.card__suvs {
+  position: absolute;
+  background-color: #006970;
+  height: 100%;
+  width: 61.3333333333rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  top: 0;
+  right: 0;
+  border-radius: 0.8rem;
+}
+.card__suvs--content {
+  display: grid;
+  padding: 4.8rem;
+}
+.card__suvs--content-text {
+  margin-right: 2rem;
+}
+.card__suvs--content-btn {
+  color: #e38826;
+  align-self: end;
+}
+.card__luxury {
+  position: absolute;
+  background-color: #004241;
+  height: 100%;
+  width: 30.6666666667rem;
+  display: grid;
+  top: 0;
+  right: 0;
+  border-radius: 0.8rem;
+}
+.card__luxury--content {
+  display: grid;
+  padding: 4.8rem;
+}
+.card__luxury--content-text {
+  margin-right: 2rem;
+}
+.card__luxury--content-btn {
+  color: #e38826;
+  align-self: end;
+}/*# sourceMappingURL=main.css.map */
