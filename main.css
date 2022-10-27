@@ -54,7 +54,7 @@ p {
 }
 
 .card {
-  width: 92rem;
+  max-width: 92rem;
   height: 50rem;
   border-radius: 0.8rem;
   margin: 17rem auto;
@@ -78,7 +78,7 @@ p {
   margin-bottom: -1.5rem;
 }
 .card__sedans--content-text {
-  margin-right: 2rem;
+  margin-right: 3rem;
 }
 .card__sedans--content-btn {
   color: #e38826;
@@ -106,7 +106,7 @@ p {
   margin-bottom: -1.5rem;
 }
 .card__suvs--content-text {
-  margin-right: 2rem;
+  margin-right: 2.2rem;
 }
 .card__suvs--content-btn {
   color: #e38826;
@@ -133,7 +133,7 @@ p {
   margin-bottom: -1.5rem;
 }
 .card__luxury--content-text {
-  margin-right: 1.5rem;
+  margin-right: 2.2rem;
 }
 .card__luxury--content-btn {
   color: #e38826;

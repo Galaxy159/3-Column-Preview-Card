@@ -1,5 +1,5 @@
 .card {
-  width: 92rem;
+  max-width: 92rem;
   height: 50rem;
   border-radius: 0.8rem;
   margin: 17rem auto;
@@ -21,7 +21,7 @@
         margin-bottom: -1.5rem;
       }
       &-text {
-        margin-right: 2rem;
+        margin-right: 3rem;
       }
       &-btn {
         color: $color-orange;
@@ -50,7 +50,7 @@
         margin-bottom: -1.5rem;
       }
       &-text {
-        margin-right: 2rem;
+        margin-right: 2.2rem;
       }
       &-btn {
         color: $color-orange;
@@ -78,7 +78,7 @@
         margin-bottom: -1.5rem;
       }
       &-text {
-        margin-right: 1.5rem;
+        margin-right: 2.2rem;
       }
       &-btn {
         color: $color-orange;

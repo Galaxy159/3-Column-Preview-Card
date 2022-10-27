@@ -9,6 +9,14 @@ $color-grey-light: #f2f2f2;
 $font-primary: "Lexend Deca";
 $font-secondary: "Big Shoulders Display";
 
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media (max-width: 920px) {
+      @content;
+    }
+  }
+}
+
 *,
 ::before,
 ::after {
