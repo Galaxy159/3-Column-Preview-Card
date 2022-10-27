@@ -1,0 +1,35 @@
+// Colors:
+$color-orange: hsl(31, 77%, 52%);
+$color-cyan: hsl(184, 100%, 22%);
+$color-cyan-dark: hsl(179, 100%, 13%);
+$color-white-transparent: hsla(0, 0%, 100%, 0.75);
+$color-grey-ligh: hsl(0, 0%, 95%);
+
+// Fonts:
+$font-primary: "Lexend Deca";
+$font-secondary: "Big Shoulders Display";
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "$font-primary", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
