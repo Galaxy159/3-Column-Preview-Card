@@ -71,6 +71,12 @@ p {
   display: grid;
   padding: 4.8rem;
 }
+.card__sedans--content-icon {
+  margin-bottom: -1rem;
+}
+.card__sedans--content-headline {
+  margin-bottom: -1.5rem;
+}
 .card__sedans--content-text {
   margin-right: 2rem;
 }
@@ -93,6 +99,12 @@ p {
   display: grid;
   padding: 4.8rem;
 }
+.card__suvs--content-icon {
+  margin-bottom: -1rem;
+}
+.card__suvs--content-headline {
+  margin-bottom: -1.5rem;
+}
 .card__suvs--content-text {
   margin-right: 2rem;
 }
@@ -114,8 +126,14 @@ p {
   display: grid;
   padding: 4.8rem;
 }
+.card__luxury--content-icon {
+  margin-bottom: -1rem;
+}
+.card__luxury--content-headline {
+  margin-bottom: -1.5rem;
+}
 .card__luxury--content-text {
-  margin-right: 2rem;
+  margin-right: 1.5rem;
 }
 .card__luxury--content-btn {
   color: #e38826;

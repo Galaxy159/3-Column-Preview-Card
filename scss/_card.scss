@@ -15,8 +15,10 @@
       display: grid;
       padding: 4.8rem;
       &-icon {
+        margin-bottom: -1rem;
       }
       &-headline {
+        margin-bottom: -1.5rem;
       }
       &-text {
         margin-right: 2rem;
@@ -42,8 +44,10 @@
       display: grid;
       padding: 4.8rem;
       &-icon {
+        margin-bottom: -1rem;
       }
       &-headline {
+        margin-bottom: -1.5rem;
       }
       &-text {
         margin-right: 2rem;
@@ -68,11 +72,13 @@
       display: grid;
       padding: 4.8rem;
       &-icon {
+        margin-bottom: -1rem;
       }
       &-headline {
+        margin-bottom: -1.5rem;
       }
       &-text {
-        margin-right: 2rem;
+        margin-right: 1.5rem;
       }
       &-btn {
         color: $color-orange;
