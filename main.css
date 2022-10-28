@@ -82,7 +82,7 @@ p {
 }
 .card__sedans--content {
   display: grid;
-  padding: 4.8rem 0 4.8rem 5.8rem;
+  padding: 4.8rem 0 4.8rem 4.8rem;
 }
 .card__sedans--content-icon {
   margin-bottom: -1rem;
@@ -126,7 +126,7 @@ p {
 }
 .card__suvs--content {
   display: grid;
-  padding: 4.8rem;
+  padding: 4.8rem 0 4.8rem 4.8rem;
 }
 .card__suvs--content-icon {
   margin-bottom: -1rem;
@@ -167,7 +167,7 @@ p {
 }
 .card__luxury--content {
   display: grid;
-  padding: 4.8rem;
+  padding: 4.8rem 0 4.8rem 4.8rem;
 }
 .card__luxury--content-icon {
   margin-bottom: -1rem;
