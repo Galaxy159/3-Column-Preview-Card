@@ -63,7 +63,7 @@ p {
 }
 @media (max-width: 920px) {
   .card {
-    width: 32.7rem;
+    max-width: 32.7rem;
     height: 132.6rem;
     margin: 8.8rem auto;
   }
