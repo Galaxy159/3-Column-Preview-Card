@@ -101,7 +101,7 @@ p {
   }
 }
 .card__sedans--content-text {
-  margin-right: 3rem;
+  padding-right: 3rem;
 }
 .card__sedans--content-btn {
   color: #e38826;
@@ -148,7 +148,7 @@ p {
   }
 }
 .card__suvs--content-text {
-  margin-right: 2.2rem;
+  padding-right: 2.2rem;
 }
 .card__suvs--content-btn {
   color: #006970;
@@ -192,7 +192,7 @@ p {
   }
 }
 .card__luxury--content-text {
-  margin-right: 2.2rem;
+  padding-right: 2.2rem;
 }
 .card__luxury--content-btn {
   color: #004241;
