@@ -54,18 +54,31 @@ p {
 }
 
 .card {
-  max-width: 92rem;
+  width: 92rem;
   height: 50rem;
   border-radius: 0.8rem;
   margin: 17rem auto;
   overflow: hidden;
   position: relative;
 }
+@media (max-width: 920px) {
+  .card {
+    width: 32.7rem;
+    height: 132.6rem;
+    margin: 8.8rem auto;
+  }
+}
 .card__sedans {
   background-color: #e38826;
   height: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 920px) {
+  .card__sedans {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
 }
 .card__sedans--content {
   display: grid;
@@ -74,8 +87,18 @@ p {
 .card__sedans--content-icon {
   margin-bottom: -1rem;
 }
+@media (max-width: 920px) {
+  .card__sedans--content-icon {
+    margin-bottom: 1.5rem;
+  }
+}
 .card__sedans--content-headline {
   margin-bottom: -1.5rem;
+}
+@media (max-width: 920px) {
+  .card__sedans--content-headline {
+    margin-bottom: 1.5rem;
+  }
 }
 .card__sedans--content-text {
   margin-right: 3rem;
@@ -95,6 +118,15 @@ p {
   right: 0;
   border-radius: 0.8rem;
 }
+@media (max-width: 920px) {
+  .card__suvs {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    width: 100%;
+    height: 88.4rem;
+    top: 33.3333333333%;
+  }
+}
 .card__suvs--content {
   display: grid;
   padding: 4.8rem;
@@ -102,8 +134,18 @@ p {
 .card__suvs--content-icon {
   margin-bottom: -1rem;
 }
+@media (max-width: 920px) {
+  .card__suvs--content-icon {
+    margin-bottom: 1.5rem;
+  }
+}
 .card__suvs--content-headline {
   margin-bottom: -1.5rem;
+}
+@media (max-width: 920px) {
+  .card__suvs--content-headline {
+    margin-bottom: 1.5rem;
+  }
 }
 .card__suvs--content-text {
   margin-right: 2.2rem;
@@ -122,6 +164,13 @@ p {
   right: 0;
   border-radius: 0.8rem;
 }
+@media (max-width: 920px) {
+  .card__luxury {
+    top: 66.6666666667%;
+    width: 100%;
+    height: 44.2rem;
+  }
+}
 .card__luxury--content {
   display: grid;
   padding: 4.8rem;
@@ -129,8 +178,18 @@ p {
 .card__luxury--content-icon {
   margin-bottom: -1rem;
 }
+@media (max-width: 920px) {
+  .card__luxury--content-icon {
+    margin-bottom: 1.5rem;
+  }
+}
 .card__luxury--content-headline {
   margin-bottom: -1.5rem;
+}
+@media (max-width: 920px) {
+  .card__luxury--content-headline {
+    margin-bottom: 1.5rem;
+  }
 }
 .card__luxury--content-text {
   margin-right: 2.2rem;

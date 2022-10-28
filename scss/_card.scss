@@ -1,24 +1,44 @@
 .card {
-  max-width: 92rem;
+  width: 92rem;
   height: 50rem;
   border-radius: 0.8rem;
   margin: 17rem auto;
   overflow: hidden;
   position: relative;
 
+  @include respond(phone) {
+    width: 32.7rem;
+    height: 132.6rem;
+    margin: 8.8rem auto;
+  }
+
   &__sedans {
     background-color: $color-orange;
     height: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
+    @include respond(phone) {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+    }
+
     &--content {
       display: grid;
       padding: 4.8rem;
       &-icon {
         margin-bottom: -1rem;
+
+        @include respond(phone) {
+          margin-bottom: 1.5rem;
+        }
       }
       &-headline {
         margin-bottom: -1.5rem;
+
+        @include respond(phone) {
+          margin-bottom: 1.5rem;
+        }
       }
       &-text {
         margin-right: 3rem;
@@ -40,14 +60,30 @@
     right: 0;
     border-radius: 0.8rem;
 
+    @include respond(phone) {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2, 1fr);
+      width: 100%;
+      height: calc(132.6 / 3 * 2rem);
+      top: calc(100% / 3);
+    }
+
     &--content {
       display: grid;
       padding: 4.8rem;
       &-icon {
         margin-bottom: -1rem;
+
+        @include respond(phone) {
+          margin-bottom: 1.5rem;
+        }
       }
       &-headline {
         margin-bottom: -1.5rem;
+
+        @include respond(phone) {
+          margin-bottom: 1.5rem;
+        }
       }
       &-text {
         margin-right: 2.2rem;
@@ -68,14 +104,29 @@
     right: 0;
     border-radius: 0.8rem;
 
+    @include respond(phone) {
+      top: calc(100% / 3 * 2);
+      width: 100%;
+      height: calc(132.6 / 3 * 1rem);
+    }
+
     &--content {
       display: grid;
       padding: 4.8rem;
+
       &-icon {
         margin-bottom: -1rem;
+
+        @include respond(phone) {
+          margin-bottom: 1.5rem;
+        }
       }
       &-headline {
         margin-bottom: -1.5rem;
+
+        @include respond(phone) {
+          margin-bottom: 1.5rem;
+        }
       }
       &-text {
         margin-right: 2.2rem;
